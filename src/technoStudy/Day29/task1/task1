@@ -1,0 +1,12 @@
+create a class called Sphere
+have one instance variable called radius
+and two methods to calculate area and circumference
+
+Part2:
+calculate how many times we call area method
+
+Part3:
+calculate how many times we call circumference method
+
+Part4:
+calculate how many times we call any method of Circle class

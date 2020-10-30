@@ -1,0 +1,6 @@
+create a class called BankAccount
+with fields: customerName, customerBalance -> should not be static
+with methods: deposit and withdraw -> should not be static
+
+Part2:
+keep track of how much money the bank has

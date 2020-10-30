@@ -1,0 +1,3 @@
+// create class Rectangle (in package "task2") with attributes: length and width
+// create method in class Rectangle that calculate perimeter -> public int perimeter() {
+// create class Task2 (in package "task2") and create objects of Rectangle and print perimeters
