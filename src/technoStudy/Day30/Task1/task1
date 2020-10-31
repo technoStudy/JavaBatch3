@@ -1,0 +1,2 @@
+Create a class called Circle, with one attribute called radius
+Create a no args constructor that initializes the radius to 10

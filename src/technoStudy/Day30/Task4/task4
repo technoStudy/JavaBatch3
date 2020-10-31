@@ -1,0 +1,15 @@
+Create a class called profile with following attributes:
+    String firstName;
+    String lastName;
+    String address;
+    String birthDate;
+    String phone;
+    String email;
+    String nickname;
+
+Create a constructor with all attributes
+Create a constructor with firstName and lastName only
+Create a constructor with firstName, lastName, birthDate only
+Create a constructor with nickname only
+
+part2: use constructor chaining where possible
