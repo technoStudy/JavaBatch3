@@ -1,0 +1,6 @@
+create two packages: package1 and package2
+inside package1 create default access class called A
+inside class A, create a public constructor
+
+inside package2, create a class Main
+inside Main import class A and try to create an instance of A
