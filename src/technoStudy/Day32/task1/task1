@@ -1,0 +1,9 @@
+Create a class called TimeConverter,
+which has some final attributes
+for seconds in a minute
+and minutes in an hour
+create methods to convert seconds into minutes
+and minutes into seconds
+
+create methods to convert minutes into hours
+and hours into minutes

@@ -1,0 +1,6 @@
+create an enum of months
+use it inside a switch statement,
+only check 3 months, add default case for others
+
+part2: get the current month from the user input
+convert the user input into enum
