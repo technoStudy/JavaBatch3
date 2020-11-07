@@ -1,5 +1,7 @@
 package technoStudy.Day34;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ListStatistics {
@@ -29,7 +31,11 @@ public class ListStatistics {
     }
 
     public Integer getMedian(){
-        // TODO: implement this method
-        return 0;
+        if(list.isEmpty()) {
+            return null;
+        }
+        ArrayList<Integer> copy = new ArrayList<>(list);
+        Collections.sort(copy);
+        return  copy.get(copy.size()/2);
     }
 }
