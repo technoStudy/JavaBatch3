@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class MeanMethodTest {
+public class MedianMethodTest {
     @Test
     public void testCase1(){
         List<Integer> input = new ArrayList<>(Arrays.asList(3, 5, 12));
