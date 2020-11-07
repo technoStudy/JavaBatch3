@@ -17,7 +17,7 @@ public class ListStatistics {
 
     public Integer getMax(){
         Integer currentMax = list.get(0);
-        for (int i = 0; i < list.size() - 1; i++) {
+        for (int i = 0; i < list.size(); i++) {
             if(currentMax < list.get(i)){
                 currentMax = list.get(i);
             }
