@@ -8,6 +8,7 @@ public class Demo {
     public static void main(String[] args) {
         testCase1();
         testCase2();
+        testCase3();
     }
 
     private static void testCase1() {
@@ -34,6 +35,20 @@ public class Demo {
             System.out.println("Test case 2 is correct!");
         } else {
             System.out.println("Test case 2 is incorrect, expected " + expected + " but got " + actual);
+        }
+    }
+
+    private static void testCase3() {
+        List<Integer> list1 = new ArrayList<>(Arrays.asList(10,2,3,7));
+        Integer expected = 10;
+
+        ListStatistics list1Stats = new ListStatistics(list1);
+        Integer actual = list1Stats.getMax();
+
+        if(expected.equals(actual)){
+            System.out.println("Test case 3 is correct!");
+        } else {
+            System.out.println("Test case 3 is incorrect, expected " + expected + " but got " + actual);
         }
     }
 }
