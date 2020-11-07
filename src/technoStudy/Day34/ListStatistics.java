@@ -14,4 +14,14 @@ public class ListStatistics {
             System.out.print(i + " ");
         }
     }
+
+    public Integer getMax(){
+        Integer currentMax = list.get(0);
+        for(Integer number : list){
+            if(currentMax < number) {
+                currentMax = number;
+            }
+        }
+        return currentMax;
+    }
 }
