@@ -28,7 +28,7 @@ public class ListStatistics {
         return currentMax;
     }
 
-    public Integer getMean(){
+    public Integer getMedian(){
         // TODO: implement this method
         return 0;
     }
