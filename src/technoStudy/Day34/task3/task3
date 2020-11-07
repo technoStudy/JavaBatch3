@@ -1,0 +1,3 @@
+copy ListStatistics into task3 package
+implement the getMedian method
+so that MedianMethodTest test cases all pass
