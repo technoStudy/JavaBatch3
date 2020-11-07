@@ -60,10 +60,10 @@ public class Demo {
         ListStatistics list1Stats = new ListStatistics(list1);
         Integer actual = list1Stats.getMax();
 
-        if(expected.equals(actual)){
-            System.out.println("Test case 3 is correct!");
+        if(expected == actual){
+            System.out.println("Test case 4 is correct!");
         } else {
-            System.out.println("Test case 3 is incorrect, expected " + expected + " but got " + actual);
+            System.out.println("Test case 4 is incorrect, expected " + expected + " but got " + actual);
         }
     }
 }
