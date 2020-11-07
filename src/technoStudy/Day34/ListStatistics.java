@@ -27,4 +27,9 @@ public class ListStatistics {
         }
         return currentMax;
     }
+
+    public Integer getMean(){
+        // TODO: implement this method
+        return 0;
+    }
 }
