@@ -30,4 +30,26 @@ public class DemoJUnit {
 
         Assert.assertEquals(expected, actual);
     }
+
+    @Test
+    public void testCase3(){
+        List<Integer> input = new ArrayList<>(Arrays.asList(-4,-2,-3,-7));
+        Integer expected = -2;
+
+        ListStatistics testedClass = new ListStatistics(input);
+        Integer actual = testedClass.getMax();
+
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void testCase4(){
+        List<Integer> input = new ArrayList<>();
+        Integer expected = null;
+
+        ListStatistics testedClass = new ListStatistics(input);
+        Integer actual = testedClass.getMax();
+
+        Assert.assertEquals(expected, actual);
+    }
 }
