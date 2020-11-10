@@ -36,6 +36,12 @@ public class ListStatistics {
         }
         ArrayList<Integer> copy = new ArrayList<>(list);
         Collections.sort(copy);
-        return  copy.get(copy.size()/2);
+        int middleIndex = copy.size() / 2;
+        if(copy.size() % 2 != 0){ // odd number of numerals
+            return  copy.get(middleIndex);
+        } else { // even number of numerals
+            int sum = copy.get(middleIndex) + copy.get(middleIndex - 1);
+            return sum / 2;
+        }
     }
 }
