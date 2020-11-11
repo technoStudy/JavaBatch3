@@ -1,0 +1,5 @@
+create a method that gets user input and converts it to a date
+try converting using different formats like:
+MM dd uuuu
+MM/dd/uuuu
+MM.dd.uuuu
