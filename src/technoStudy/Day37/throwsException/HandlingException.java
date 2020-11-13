@@ -1,7 +1,7 @@
 package technoStudy.Day37.throwsException;
 
 public class HandlingException {
-
+    // only checked exceptions should be declared
     static public void methodThatThrowsException() throws Exception {
         System.out.println("methodThatThrowsException");
     }
