@@ -1,3 +1,4 @@
     // create application that converts text to integer
     // input should be string from Scanner
     // output should be integer
+    // if the input is not integer, print a message and give default value of 0
