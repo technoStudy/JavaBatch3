@@ -4,3 +4,6 @@ create a methods that take a string and return int:
 first method should count how many letters are in a string
 second method should count how many numbers are in a string
 --------------------------------------------------------
+
+Create a RegistrationTests class
+Test these methods, with various kind of inputs
