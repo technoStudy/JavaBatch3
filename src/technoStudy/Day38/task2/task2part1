@@ -6,4 +6,12 @@ second method should count how many numbers are in a string
 --------------------------------------------------------
 
 Create a RegistrationTests class
-Test these methods, with various kind of inputs
+Test these methods, with various kind of inputs:
+abc123 -> letters: 3
+abc123 -> numbers: 3
+A123 -> letters: 1
+A123 -> numbers: 3
+123 -> letters: 0
+123 -> numbers: 3
+null -> letters: null
+null -> numbers: null
