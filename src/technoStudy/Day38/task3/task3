@@ -1,0 +1,6 @@
+Create application that calculates average price of face mask:
+
+1. in main method get price from user and add to list until input given by user is "exit"
+2. create method that adds price to ArrayList and return true or false depending on whether it was added or not (handle conversion from string to double)
+3. create method to get average of all prices from the list (handle situation if sum is zero, throw checked exception)
+4. create a separate Tests class and test addPrice method and getAverage method
