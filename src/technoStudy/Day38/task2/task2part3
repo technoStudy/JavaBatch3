@@ -1,0 +1,3 @@
+Create class Application,
+a. Create method signUp, where user will provide a password(Scanner)
+b. In main method try signUp method until successful or until user tries 3 times
