@@ -52,4 +52,57 @@ public class RegistrationTestsS {
     public void test8(){
         RegistrationS.countNumbers(null);
     }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void checkPassword1(){
+        RegistrationS.checkPassword(null);
+    }
+    @Test(expected = IllegalArgumentException.class)
+    public void checkPassword2(){
+        RegistrationS.checkPassword("");
+    }
+    @Test(expected = IllegalArgumentException.class)
+    public void checkPassword3(){
+        RegistrationS.checkPassword("        ");
+    }
+    @Test(expected = IllegalArgumentException.class)
+    public void checkPassword4(){
+        RegistrationS.checkPassword("asdasd");
+    }
+    @Test(expected = IllegalArgumentException.class)
+    public void checkPassword5(){
+        RegistrationS.checkPassword("1asdasd");
+    }
+    @Test(expected = IllegalArgumentException.class)
+    public void checkPassword6(){
+        RegistrationS.checkPassword("12asdasd");
+    }
+    @Test
+    public void checkPassword7(){
+        RegistrationS.checkPassword("123asdasd");
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void checkPassword8(){
+        RegistrationS.checkPassword("123456");
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void checkPassword9(){
+        RegistrationS.checkPassword("123456a");
+    }
+    @Test(expected = IllegalArgumentException.class)
+    public void checkPassword10(){
+        RegistrationS.checkPassword("123456ab");
+    }
+
+    @Test
+    public void checkPassword11(){
+        RegistrationS.checkPassword("123456abc");
+    }
+
+    @Test
+    public void checkPassword12(){
+        RegistrationS.checkPassword("123abc");
+    }
 }
