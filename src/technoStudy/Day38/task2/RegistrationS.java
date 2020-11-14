@@ -3,8 +3,8 @@ package technoStudy.Day38.task2;
 public class RegistrationS {
     public static int countLetters(String input) {
         if(input == null){
-//            return 0;
-            throw new IllegalArgumentException("The input cannot be null");
+            return 0;
+//            throw new IllegalArgumentException("The input cannot be null");
         }
         int count = 0;
         for (int i = 0; i < input.length(); i++) {

@@ -21,14 +21,35 @@ public class RegistrationTestsS {
     }
     @Test(expected = IllegalArgumentException.class)
     public void test4(){
-        try {
-            int count = RegistrationS.countLetters(null);
-        } catch (IllegalArgumentException e) {
-            String message = e.getMessage();
-            Assert.assertEquals("The input cannot be null", message);
-            throw e;
-        }
-
+//        try {
+            RegistrationS.countLetters(null);
+//        } catch (IllegalArgumentException e) {
+//            String message = e.getMessage();
+//            Assert.assertEquals("The input cannot be null", message);
+//            throw e;
+//        }
+        // if want to check the exception message, then catch and re-throw
     }
 
+
+    @Test
+    public void test5(){
+        int count = RegistrationS.countNumbers("abc123");
+        Assert.assertEquals(3, count);
+    }
+    @Test
+    public void test6(){
+        int count = RegistrationS.countNumbers("A123");
+        Assert.assertEquals(3, count);
+    }
+    @Test
+    public void test7(){
+        int count = RegistrationS.countNumbers("123");
+        Assert.assertEquals(3, count);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void test8(){
+        RegistrationS.countNumbers(null);
+    }
 }
