@@ -10,3 +10,5 @@ Password rules:
 * must have a length of 6 or more
 
 throw IllegalArgumentException for any rule that's not valid
+------------------------------------------
+create Tests for checkPassword method
