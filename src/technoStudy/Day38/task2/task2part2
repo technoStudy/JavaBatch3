@@ -1,12 +1,12 @@
 Inside class Registration:
 Create method checkPassword, where we will check password for validity
-
+it accepts string and return boolean
 Password rules:
 * must not be null
 * must not be empty
 * must not contain only spaces
 * must contain at least 3 digits
 * must contain at least 3 letters
-* must have a length of 6
+* must have a length of 6 or more
 
 throw IllegalArgumentException for any rule that's not valid
