@@ -20,10 +20,21 @@ public class Task3Solution {
         }
 
         System.out.println(list);
+
+        try {
+            Double average = getAverage(list);
+            System.out.println("average is " +  average);
+        } catch (Exception exception) {
+            System.out.println(exception.getMessage());
+            System.out.println("list is empty, can not count average");
+        }
     }
 
     public static boolean addPriceToList(String string, ArrayList<Double> list) {
         Double parsed = null;
+        if(list == null){
+            throw new RuntimeException("To add to the list, the list must not be null");
+        }
         try {
             parsed = Double.parseDouble(string);
         } catch (NullPointerException e) {
