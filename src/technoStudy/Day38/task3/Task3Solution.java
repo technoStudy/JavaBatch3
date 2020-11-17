@@ -10,11 +10,14 @@ public class Task3Solution {
 
         ArrayList<Double> list = new ArrayList<>();
         String input = null;
-        do {
+        while (true) {
             System.out.println("Please enter a number or type 'exit' to finish");
             input = scanner.nextLine();
+            if(input.equals("exit")) {
+                break;
+            }
             addPriceToList(input, list);
-        } while (!input.equals("exit"));
+        }
 
         System.out.println(list);
     }
