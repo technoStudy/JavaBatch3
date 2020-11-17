@@ -6,11 +6,11 @@ public class Slide12 {
     public static void main(String[] args) {
         Slide12 instance = new Slide12();
         instance.method();
-        System.out.println(instance.instanceVariable)
+        System.out.println(instance.instanceVariable);
 //        localVar;
         if(true) {
             int anotherLocalVariable = 1;
-            System.out.println(instance.instanceVariable)
+            System.out.println(instance.instanceVariable);
 
         }
 
