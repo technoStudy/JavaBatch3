@@ -13,11 +13,18 @@ public class Slide12 {
             System.out.println(instance.instanceVariable)
 
         }
+
+        int localVar = instance.returnLocalVar();
 //        anotherLocalVariable;
     }
 
     public void method() {
         int localVar = 1;
         System.out.println(instanceVariable);
+    }
+
+    public int returnLocalVar(){
+        int localVar = 1;
+        return localVar;
     }
 }
