@@ -1,9 +1,23 @@
 package technoStudy.Day38.task3;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Task3Solution {
 
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        ArrayList<Double> list = new ArrayList<>();
+        String input = null;
+        do {
+            System.out.println("Please enter a number or type 'exit' to finish");
+            input = scanner.nextLine();
+            addPriceToList(input, list);
+        } while (!input.equals("exit"));
+
+        System.out.println(list);
+    }
 
     public static boolean addPriceToList(String string, ArrayList<Double> list) {
         Double parsed = null;
@@ -19,4 +33,5 @@ public class Task3Solution {
         list.add(parsed);
         return true;
     }
+
 }
