@@ -37,4 +37,15 @@ public class Task3Solution {
         return true;
     }
 
+    public static Double getAverage(ArrayList<Double> list) throws Exception {
+        Double sum = 0.0;
+        for (Double number : list) {
+            sum += number;
+        }
+        if(list.size() == 0) {
+            throw new Exception("List size cannot be zero");
+        }
+        return sum / list.size();
+    }
+
 }
