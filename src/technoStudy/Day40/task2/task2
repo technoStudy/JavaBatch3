@@ -1,0 +1,10 @@
+Create a enum Currency, with values: USD, EUR
+
+Create a class called bank account, with fields:
+userId: string -> readonly
+balance: double -> readonly
+currency: Currency -> readonly
+
+create a constructor with userId and currency only
+
+create withdraw and deposit methods
