@@ -4,4 +4,5 @@ userId should be initialized in constructor
 create getter and setter methods for balance only
 ----------------------
 in setter method for balance, make sure the cannot set it to negative value
-
+-----------------------
+requirement userId must not be modified, it's a read-only property
