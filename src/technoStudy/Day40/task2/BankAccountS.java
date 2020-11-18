@@ -23,6 +23,9 @@ public class BankAccountS {
     }
 
     public void deposit(double amount){
+        if(amount <= 0) {
+            throw new IllegalArgumentException("The amount should be greater than zero!");
+        }
         balance += amount;
     }
 
