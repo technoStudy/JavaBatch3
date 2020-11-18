@@ -6,5 +6,8 @@ public class Demo {
         account1.setBalance(100);
         AccountS account2 =  new AccountS("2");
         account2.setBalance(-100);
+
+        System.out.println(account1.getUserId());
+        System.out.println(account2.getUserId());
     }
 }

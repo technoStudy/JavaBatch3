@@ -20,4 +20,8 @@ public class AccountS {
             this.balance = balance;
         }
     }
+
+    public String getUserId() {
+        return userId;
+    }
 }
