@@ -2,4 +2,6 @@ Create a class called Account
 fields -> userId:String, balance:double
 userId should be initialized in constructor
 create getter and setter methods for balance only
+----------------------
+in setter method for balance, make sure the cannot set it to negative value
 
