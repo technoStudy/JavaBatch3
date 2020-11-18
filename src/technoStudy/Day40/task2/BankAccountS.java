@@ -21,4 +21,15 @@ public class BankAccountS {
     public CurrencyS getCurrency() {
         return currency;
     }
+
+    public void deposit(double amount){
+        balance += amount;
+    }
+
+    public void withdraw(double amount){
+        if(balance - amount < 0){
+            throw new IllegalArgumentException("Not enough to withdraw, transaction denied!");
+        }
+        balance -= amount;
+    }
 }
