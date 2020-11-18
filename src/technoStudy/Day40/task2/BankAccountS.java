@@ -27,6 +27,9 @@ public class BankAccountS {
     }
 
     public void withdraw(double amount){
+        if(amount <= 0) {
+            throw new IllegalArgumentException("The amount should be greater than zero!");
+        }
         if(balance - amount < 0){
             throw new IllegalArgumentException("Not enough to withdraw, transaction denied!");
         }
