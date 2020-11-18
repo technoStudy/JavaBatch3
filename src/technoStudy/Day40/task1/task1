@@ -1,0 +1,5 @@
+Create a class called Account
+fields: userId, balance
+userId should be initialized in constructor
+create getter and setter methods for balance only
+
