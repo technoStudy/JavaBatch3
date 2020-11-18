@@ -42,4 +42,14 @@ public class TestS {
         account.deposit(100);
         account.withdraw(150);
     }
+
+    @Test
+    public void withdraw6(){
+        // try withdraw 100 with 100 balance
+        BankAccountS account = new BankAccountS("1", CurrencyS.USD);
+        account.deposit(100);
+        account.withdraw(100);
+        double actual = account.getBalance();
+        Assert.assertEquals(0, actual, 0.0);
+    }
 }
