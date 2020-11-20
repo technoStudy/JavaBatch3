@@ -1,3 +1,7 @@
 create following structure
 shape <- circle
 shape <- rectangle <- square
+-------------------------------------
+create fields in shape: area, perimeter, name, id
+create field in circle: radius, diameter
+create field in rectangle: length, width
