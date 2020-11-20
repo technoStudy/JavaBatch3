@@ -26,4 +26,12 @@ public class SDET extends Employee {
     public void setSuperSalary(double salary){
         super.salary = salary;
     }
+
+    public double calculateSalary() {
+        return this.salary;
+    }
+
+    public double superCalculateSalary(){
+        return super.calculateSalary();
+    }
 }
