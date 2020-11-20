@@ -5,8 +5,11 @@ public class Demo {
         Employee employee = new Employee();
         employee.salary = 100000;
 //        employee.bonus = 10000;
+        System.out.println(employee.calculateSalary());
+
         SDET sdetEmployee = new SDET();
         sdetEmployee.salary = 120000;
         sdetEmployee.bonus = 10000;
+        System.out.println(sdetEmployee.calculateSalary());
     }
 }
