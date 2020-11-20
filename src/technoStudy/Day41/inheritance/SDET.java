@@ -7,6 +7,13 @@ public class SDET extends Employee {
     // parent field can be accessed using super
     // his own field can be accessed using this
 
+
+    public SDET(double superSalary, double bonus, double sdetSalary) {
+        super(superSalary);
+        this.bonus = bonus;
+        this.salary = sdetSalary;
+    }
+
     public double getBonus() {
         return bonus;
     }

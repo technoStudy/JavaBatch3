@@ -1,7 +1,12 @@
 package technoStudy.Day41.inheritance;
 
 public class Employee {
-    double salary;
+    protected double salary;
+
+
+    public Employee(double salary) {
+        this.salary = salary;
+    }
 
     public double calculateSalary() {
         return this.salary;
