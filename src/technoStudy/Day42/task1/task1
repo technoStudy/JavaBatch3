@@ -3,3 +3,5 @@ Create Vehicle class with:
     static -> getName method, that returns name of the class
 Create Car class that's a child of Vehicle
     override and hide the method of parent
+
+Create Demo class and test out the methods of both classes
