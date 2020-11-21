@@ -1,5 +1,7 @@
 package technoStudy.Day42.overridingHashcode;
 
+import java.util.Objects;
+
 public class Square extends Rectangle {
     public Square(double side) {
         super(side, side);
@@ -26,5 +28,10 @@ public class Square extends Rectangle {
         } else {
             return false;
         }
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(length);
     }
 }

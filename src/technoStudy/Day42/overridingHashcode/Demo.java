@@ -16,5 +16,13 @@ public class Demo {
         set.add(circle1);
         set.add(circle2);
         System.out.println(set.size());
+
+        System.out.println(circle1.hashCode());
+        System.out.println(circle1.hashCode());
+
+
+        Circle circle3 = new Circle(7.0);
+        System.out.println(circle1.hashCode());
+        System.out.println(circle3.hashCode());
     }
 }

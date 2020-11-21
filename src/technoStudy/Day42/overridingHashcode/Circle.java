@@ -36,6 +36,6 @@ public class Circle extends Shape {
 
     @Override
     public int hashCode() {
-        return Objects.hash(radius);
+        return 17 * (int)radius;
     }
 }
