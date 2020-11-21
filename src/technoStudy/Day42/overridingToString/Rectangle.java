@@ -10,4 +10,12 @@ public class Rectangle extends Shape {
         perimeter = 2 * (width + length);
         name = "Rectangle";
     }
+
+    @Override
+    public String toString(){
+        return name + "\n width: " + width +
+                "\n length: " + length +
+                "\n area: " + area +
+                "\n perimeter: " + perimeter;
+    }
 }

@@ -5,4 +5,14 @@ public class Square extends Rectangle {
         super(side, side);
         name = "Square: special kind of Rectangle";
     }
+
+    @Override
+    public String toString() {
+        return "Square{" +
+                "name='" + name + '\'' +
+                ", side=" + length +
+                ", area=" + area +
+                ", perimeter=" + perimeter +
+                '}';
+    }
 }
