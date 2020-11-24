@@ -16,6 +16,10 @@ public class BankAccount {
         return balance;
     }
 
+    protected void setBalance(double balance) {
+        this.balance = balance;
+    }
+
     public void deposit(double amount){
         if(amount <= 0) {
             throw new IllegalArgumentException("The amount should be greater than zero!");
