@@ -1,4 +1,4 @@
 Create a class called Animal
 create a method called run(), makeSound() in Animal
 create subclasses of Animal: Cat, Dog, Horse
-override makeSound() subclasses
+override makeSound() in subclasses
