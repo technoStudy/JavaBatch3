@@ -6,3 +6,5 @@ override makeSound() in subclasses
 inside Animal
 create run(int meters) method -> prints something like: Animal runs 4 meters
 create run(int units, String unit) method -> prints something like: Animal runs 2 kilometers
+-----------------------------------------
+for run methods, instead of Animal use Cat Dog and Horse respectively, depending on who they are
