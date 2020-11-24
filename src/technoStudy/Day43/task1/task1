@@ -2,3 +2,6 @@ Create a class called Animal
 create a method called run(), makeSound() in Animal
 create subclasses of Animal: Cat, Dog, Horse
 override makeSound() in subclasses
+-----------------------------------
+create run(int meters) method -> prints something like: Animal runs 4 meters
+create run(int units, String unit) method -> prints something like: Animal runs 2 kilometers
