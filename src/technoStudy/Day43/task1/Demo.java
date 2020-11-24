@@ -12,6 +12,7 @@ public class Demo {
 
         for (Animal animal : list){
             animal.makeSound();
+            animal.run(10, "miles");
         }
     }
 
