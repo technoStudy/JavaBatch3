@@ -2,3 +2,5 @@ create abstract class Food with abstract methods
 the taste method should just print how it tastes
 create 2 subclass of Food
 the madeIn method should print in which place its made
+-------------------------------
+create a list of foods and fill it in with random salads and sweets
