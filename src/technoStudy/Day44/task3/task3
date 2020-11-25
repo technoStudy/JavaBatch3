@@ -1,0 +1,3 @@
+Create shape class:
+methods: getArea(), getPerimeter()
+Create child classes of shape: Circle, Rectangle, Triangle
