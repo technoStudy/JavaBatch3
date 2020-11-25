@@ -5,4 +5,14 @@ public class Truck extends Vehicle {
     public void move(int distance) {
         System.out.println("The truck is moving");
     }
+
+    @Override
+    public void move(int distance, String units) {
+
+    }
+
+    @Override
+    public void fuelUp(int liters) {
+
+    }
 }

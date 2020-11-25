@@ -14,6 +14,6 @@ public class Demo {
         list.add(new Car());
 //        list.add(new Vehicle());
 
-        e.finalMethod();
+//        e.finalMethod();
     }
 }
