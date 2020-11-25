@@ -3,3 +3,5 @@ methods: getArea(), getPerimeter()
 Create child classes of shape: Circle, Rectangle (Subclass Square), Triangle
 you should be able to modify the values of Circle, Rectangle, Triangle
 and calculate area and perimeter again
+---------------------------------
+create tests that test getArea(), getPerimeter() for all classes
