@@ -7,6 +7,6 @@ public class CreditCard extends BankCard {
         if(amount <= 0) {
             throw new RuntimeException("Amount cannot be zero or negative");
         }
-        balance -= amount;
+        setBalance(getBalance() - amount);
     }
 }

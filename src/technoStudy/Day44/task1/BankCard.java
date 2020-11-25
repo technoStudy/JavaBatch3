@@ -1,7 +1,7 @@
 package technoStudy.Day44.task1;
 
 public abstract class BankCard {
-    double balance;
+    private double balance;
 
     void deposit(double amount) {
         if (amount <= 0) {
@@ -11,4 +11,12 @@ public abstract class BankCard {
     }
 
     abstract void withdraw(double amount);
+
+    public double getBalance() {
+        return balance;
+    }
+
+    protected void setBalance(double balance) {
+        this.balance = balance;
+    }
 }

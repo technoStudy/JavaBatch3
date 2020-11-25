@@ -6,9 +6,9 @@ public class DebitCard extends BankCard {
         if (amount <= 0) {
             throw new RuntimeException("Amount cannot be zero or negative");
         }
-        if (balance - amount < 0) {
+        if (getBalance() - amount < 0) {
             throw new RuntimeException("Not enough balance");
         }
-        balance -= amount;
+        setBalance(getBalance() - amount);
     }
 }
