@@ -5,3 +5,7 @@ you should be able to modify the values of Circle, Rectangle, Triangle
 and calculate area and perimeter again
 ---------------------------------
 create tests that test getArea(), getPerimeter() for all classes
+---------------------------------
+generate random shapes,
+calculate the total area
+and average perimeter
