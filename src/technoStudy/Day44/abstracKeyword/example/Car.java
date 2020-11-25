@@ -23,6 +23,11 @@ public class Car extends Vehicle {
 
     }
 
+    @Override
+    public void fly() throws Exception {
+        throw new Exception("Car cannot fly yet");
+    }
+
     public static String getName(){
         return "Car Class";
     }

@@ -1,9 +1,9 @@
 package technoStudy.Day44.abstracKeyword.example;
 
-public class Truck extends Vehicle {
+public class Plane extends Vehicle {
     @Override
     public void move(int distance) {
-        System.out.println("The truck is moving");
+
     }
 
     @Override
@@ -18,6 +18,6 @@ public class Truck extends Vehicle {
 
     @Override
     public void fly() throws Exception {
-        throw new Exception("Truck cannot fly");
+        System.out.println("The plane is flying");
     }
 }
