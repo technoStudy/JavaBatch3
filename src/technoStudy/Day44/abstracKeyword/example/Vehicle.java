@@ -14,4 +14,8 @@ public abstract class Vehicle {
     public static String getName(){
         return "Vehicle Class";
     }
+
+    public void instanceMethod(){
+        // to be inherited, may be overridden
+    }
 }
