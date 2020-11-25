@@ -1,0 +1,6 @@
+Create a BankCard parent class
+create two types of cards, credit and debit that extend BankCard class
+methods: deposit and withdraw
+variable: create as you need
+debit card cannot overdraft
+credit card can overdraft
