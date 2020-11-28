@@ -1,0 +1,12 @@
+Classes, AbstractClasses, Interfaces
+
+Tesla(electric)
+ToyotaPrius(hybrid)
+Mercedes(diesel)
+
+properties: model, productionYear
+Methods:
+electric you need to change battery
+hybrid you need to change battery
+hybrid you need to change oil
+diesel you need to change oil
