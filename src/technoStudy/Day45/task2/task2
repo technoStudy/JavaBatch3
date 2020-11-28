@@ -1,0 +1,3 @@
+**part1**
+1. create interface Vehicle with method speed()
+2. add 3 types of vehicle class: Car, AirPlane, Train
