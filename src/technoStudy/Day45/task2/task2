@@ -4,3 +4,4 @@
 
 **part2**
 add interfaces for flying vehicles and vehicles in sea
+create methods fly and sail inside them
