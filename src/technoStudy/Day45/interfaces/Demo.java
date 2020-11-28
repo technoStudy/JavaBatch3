@@ -8,5 +8,7 @@ public class Demo {
         AnotherInterface variable2 = new MultiInheritanceExample();
         variable2.method3();
         variable2.method4();
+
+        System.out.println(InterfaceWithVariable.variable1);
     }
 }
