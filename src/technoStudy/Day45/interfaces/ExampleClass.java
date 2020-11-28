@@ -5,4 +5,9 @@ public class ExampleClass extends ParentClass implements ExampleInterface {
     public void method1() {
         System.out.println("Hello");
     }
+
+    @Override
+    public int method2() {
+        return 0;
+    }
 }
