@@ -1,5 +1,5 @@
 package technoStudy.Day45.task2;
 
 public interface Vehicle {
-    void speed();
+    void printGroundSpeed();
 }
