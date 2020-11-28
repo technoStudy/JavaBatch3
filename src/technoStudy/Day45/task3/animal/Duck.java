@@ -1,9 +1,10 @@
 package technoStudy.Day45.task3.animal;
 
+import technoStudy.Day45.task3.Animal;
 import technoStudy.Day45.task3.interfaces.Flying;
 import technoStudy.Day45.task3.interfaces.Sailing;
 
-public class Duck implements Flying, Sailing {
+public class Duck extends Animal implements Flying, Sailing {
     @Override
     public void fly() {
         System.out.println("Duck flying");
