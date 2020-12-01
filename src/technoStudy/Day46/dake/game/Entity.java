@@ -7,7 +7,7 @@ public abstract class Entity implements Attack {
     protected int health;
     protected Weapon weapon;
 
-    boolean isDead() {
+    public boolean isDead() {
         return health <= 0;
     }
 

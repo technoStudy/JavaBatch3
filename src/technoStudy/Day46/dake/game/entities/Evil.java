@@ -6,7 +6,7 @@ import java.util.Random;
 
 public abstract class Evil extends Entity {
     public void fight(Entity another) {
-        if(another instanceof Evil) {
+        if(another instanceof Evil || this.isDead()) {
             return;
         }
         System.out.print(this.getClass().getSimpleName() +" is attacking: " + another.getClass().getSimpleName() + " ");
