@@ -15,10 +15,8 @@ public class Demo {
 
         // one round of the game
         for (Entity entity: entities) {
-            System.out.print(entity.getClass().getSimpleName() +" is attacking: ");
             for (Entity another : entities) {
-                System.out.print(another.getClass().getSimpleName() + ", ");
-//                entity.fight(another);
+                entity.fight(another);
             }
             System.out.println();
         }

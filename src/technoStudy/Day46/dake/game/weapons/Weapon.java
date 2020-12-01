@@ -1,4 +1,6 @@
 package technoStudy.Day46.dake.game.weapons;
 
-public abstract class Weapon {
+import technoStudy.Day46.dake.game.Attack;
+
+public abstract class Weapon implements Attack {
 }
