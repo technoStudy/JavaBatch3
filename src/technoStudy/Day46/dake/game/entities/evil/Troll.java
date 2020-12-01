@@ -18,9 +18,10 @@ public class Troll extends Evil {
     @Override
     public void fight(Entity another) {
         // custom fight behaviour for troll
-        if(this == another) { // do damage himself
+        if(this == another || this.isDead()) { // do damage himself
             return;
         }
+        System.out.print(this.getClass().getSimpleName() +" is attacking: " + another.getClass().getSimpleName() + " ");
         another.takeDamage(this);
     }
 }
