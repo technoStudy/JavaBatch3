@@ -8,13 +8,15 @@ import technoStudy.Day46.dake.game.entities.good.Archer;
 import technoStudy.Day46.dake.game.entities.good.Knight;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
 public class Demo {
     public static void main(String[] args) {
         List<Entity> entities = generateRandomEntites();
-
+        Collections.sort(entities);
+        print(entities);
         // one round of the game
         for (Entity entity: entities) {
             for (Entity another : entities) {
@@ -23,6 +25,12 @@ public class Demo {
             System.out.println();
         }
         checkWhoWins(entities);
+    }
+
+    private static void print(List<Entity> entities) {
+        for (Entity entity: entities) {
+            System.out.println(entity);
+        }
     }
 
     private static void checkWhoWins(List<Entity> entities) {
