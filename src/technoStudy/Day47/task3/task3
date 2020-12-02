@@ -1,0 +1,14 @@
+Student class
+-name
+-age
+-lessons -> Lesson
+-parents -> Parent
+-grade
+
+Parent
+-name
+-telephone
+
+Lesson
+-name
+-grade
