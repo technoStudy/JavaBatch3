@@ -1,0 +1,3 @@
+Create and abstract class called Food
+create one method called cook();
+extend all the classes from Food class
