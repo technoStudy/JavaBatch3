@@ -3,7 +3,7 @@ Create two classes BATMAN and WAYNE. Both the classes have same method name qual
 CLASS BATMAN method quality() prints "I am BATMAN"
 CLASS WAYNE method quality() prints "I am WAYNE too"
 
-Print the output in following format:
+Print the output in following in console:
 I am BATMAN
 I am WAYNE too
 
