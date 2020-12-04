@@ -1,7 +1,7 @@
 task1
 Create two classes BATMAN and WAYNE. Both the classes have same method name quality().
-CLASS BATMAN method quality() prints "I am BATMAN"
-CLASS WAYNE method quality() prints "I am WAYNE too"
+CLASS BATMAN method quality() returns "I am BATMAN"
+CLASS WAYNE method quality() returns "I am WAYNE too"
 
 Print the output in following in console:
 I am BATMAN
