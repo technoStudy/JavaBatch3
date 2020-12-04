@@ -1,0 +1,10 @@
+task1
+Create two classes BATMAN and WAYNE. Both the classes have same method name quality().
+CLASS BATMAN method quality() prints "I am BATMAN"
+CLASS WAYNE method quality() prints "I am WAYNE too"
+
+Print the output in following format:
+I am BATMAN
+I am WAYNE too
+
+You can create only one object of class WAYNE.
