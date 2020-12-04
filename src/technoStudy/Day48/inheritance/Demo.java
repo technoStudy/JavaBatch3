@@ -4,6 +4,7 @@ public class Demo {
     public static void main(String[] args) {
         SubClass o = new SubClass();
         o.method();
+        o.getA();
         SuperClass b = o;
 //        b.method();
         b.getA();
@@ -11,5 +12,6 @@ public class Demo {
 //        c.method();
 //        c.getA();
         c.toString();
+
     }
 }
