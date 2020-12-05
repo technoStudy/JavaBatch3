@@ -33,6 +33,8 @@ public class Customer {
             sum *= 0.9;
         } else if(type == CustomerType.SpecialCustomer) {
             sum *= 0.5;
+        } else if(type == CustomerType.SuperSpecialCustomer) {
+            sum *= 0.25;
         }
         return sum;
     }
