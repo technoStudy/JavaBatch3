@@ -8,4 +8,5 @@ Create custom StringSet interface with methods:
 
 create StringSetImplementation1 that uses list behind the scenes
 
-
+**Part 2**
+create StringSetImplementation2 that uses array behind the scenes
