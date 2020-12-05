@@ -2,6 +2,7 @@ Create an OnlineShop:
 	Item: name, price
 	Cart: list of items
 	Customer: name, address, cart, customerType
+	Customer -> getCartTotal() -> should calculate cart total depending on customerType
 	CustomerType:
 		NormalCustomer
 		PremiumCustomer(-10% discount on total sum of cart)
