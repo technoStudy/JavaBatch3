@@ -1,9 +1,11 @@
 **Part 1**
 Create custom StringSet interface with methods:
-    void add(String s);
+    void add(String s); (only add if unique, return false otherwise)
     void remove(String s);
     int size();
     void clear(); //remove all Strings from StringSet
     boolean isEmpty();
 
-create StringSetImplementation1 that uses list behind the scene
+create StringSetImplementation1 that uses list behind the scenes
+
+
