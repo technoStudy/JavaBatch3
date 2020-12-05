@@ -1,4 +1,4 @@
-package technoStudy.Day49.task1.version2.version1;
+package technoStudy.Day49.task1.version2;
 
 public class Demo {
     public static void main(String[] args) {

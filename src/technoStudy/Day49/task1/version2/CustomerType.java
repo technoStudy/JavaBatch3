@@ -1,4 +1,4 @@
-package technoStudy.Day49.task1.version2.version1;
+package technoStudy.Day49.task1.version2;
 
 public enum CustomerType {
     NormalCustomer(0), PremiumCustomer(10), SpecialCustomer(50);

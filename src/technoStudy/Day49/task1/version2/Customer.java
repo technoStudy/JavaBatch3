@@ -1,4 +1,4 @@
-package technoStudy.Day49.task1.version2.version1;
+package technoStudy.Day49.task1.version2;
 
 import java.util.ArrayList;
 import java.util.List;
