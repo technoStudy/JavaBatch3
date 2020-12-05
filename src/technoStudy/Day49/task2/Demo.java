@@ -13,6 +13,10 @@ public class Demo {
         Matrix result = m1.plus(m2);
         System.out.println(result);
 
-        Matrix product = m1.multiply(m2);
+        try {
+            Matrix product = m1.multiply(result);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
     }
 }

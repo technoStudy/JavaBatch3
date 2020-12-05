@@ -73,7 +73,7 @@ public class Matrix {
     }
 
     public Matrix multiply(Matrix other) {
-        throw new MatrixRuntimeException("Not yet implemented");
+        throw new MatrixRuntimeException("Multiplication Not yet implemented");
     }
         @Override
     public String toString() {

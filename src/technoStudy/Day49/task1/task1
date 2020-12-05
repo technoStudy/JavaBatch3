@@ -1,0 +1,8 @@
+Create an OnlineShop:
+	Item: name, price
+	Cart: list of items
+	Customer: name, address, cart, customerType
+	CustomerType:
+		NormalCustomer
+		PremiumCustomer(-10% discount on total sum of cart)
+		SpecialCustomer(-50% discount on total sum of cart) 
