@@ -12,5 +12,7 @@ public class Demo {
         System.out.println("=");
         Matrix result = m1.plus(m2);
         System.out.println(result);
+
+        Matrix product = m1.multiply(m2);
     }
 }

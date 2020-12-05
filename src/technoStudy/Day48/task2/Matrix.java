@@ -72,7 +72,10 @@ public class Matrix {
         return result;
     }
 
-    @Override
+    public Matrix multiply(Matrix other) {
+        throw new MatrixRuntimeException("Not yet implemented");
+    }
+        @Override
     public String toString() {
         String matrixString = "";
         for (int i = 0; i < rows; i++) {
