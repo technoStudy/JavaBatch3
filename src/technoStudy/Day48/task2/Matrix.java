@@ -58,6 +58,20 @@ public class Matrix {
         }
     }
 
+    public Matrix plus(Matrix other) {
+        if(this.rows != other.rows || this.columns != other.columns) {
+            throw new MatrixRuntimeException("The dimension should be equal!");
+        }
+        Matrix result = new Matrix(other.rows, other.columns);
+        for (int i = 0; i < this.rows; i++) {
+            for (int j = 0; j < this.columns; j++) {
+                int sum = this.matrix[i][j] + other.matrix[i][j];
+                result.setElement(i, j, sum);
+            }
+        }
+        return result;
+    }
+
     @Override
     public String toString() {
         String matrixString = "";
@@ -69,4 +83,5 @@ public class Matrix {
         }
         return matrixString;
     }
+
 }
