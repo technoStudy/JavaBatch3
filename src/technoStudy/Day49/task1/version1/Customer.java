@@ -24,7 +24,25 @@ public class Customer {
     }
 
     public int getCartTotal() {
-        // TODO: implement the method
-        return 0;
+        int sum = 0;
+        for (int i = 0; i < cart.size(); i++) {
+            sum += cart.get(i).getPrice();
+        }
+
+        if(type == CustomerType.PremiumCustomer) {
+            sum *= 0.9;
+        } else if(type == CustomerType.SpecialCustomer) {
+            sum *= 0.5;
+        }
+        return sum;
+    }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", type=" + type +
+                '}';
     }
 }
