@@ -79,7 +79,9 @@ public class Matrix {
             for (int j = 0; j < columns; j++) {
                 matrixString += matrix[i][j] + "\t";
             }
-            matrixString += "\n";
+            if(i != rows - 1) {
+                matrixString += "\n";
+            }
         }
         return matrixString;
     }
