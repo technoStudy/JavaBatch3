@@ -27,6 +27,11 @@ public class Letters {
 
     }
 
+    public  void anotherMethod() {
+        {
+            System.out.print("6");
+        }
+    }
     {
         System.out.print("3");
     }
