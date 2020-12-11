@@ -1,21 +1,18 @@
 package technoStudy.Day52.LambdaExpressions;
 
+import java.util.Random;
+
 interface StringFunction {
-    String run(String parameter);
+    String run(String parameter); // must have only one abstract method
 }
-
-class StringImpl1 implements StringFunction {
-    @Override
-    public String run(String parameter) {
-        return parameter.concat("!");
-    }
-}
-
-
 public class _03_InterfaceLambda {
     public static void main(String[] args) {
-       StringFunction f = new StringImpl1();
-       print(f);
+       StringFunction lambda1 = s -> {
+           int number = new Random().nextInt();
+           return number + " " + s.concat("!");
+       };
+       print(lambda1);
+       print(s -> s.concat("!"));
     }
 
     public static void print(StringFunction f){
