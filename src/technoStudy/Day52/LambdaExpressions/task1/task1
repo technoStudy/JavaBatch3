@@ -1,0 +1,3 @@
+create an interface with one abstract method
+Integer getRandom(Integer upperBound, Integer lowerBound);
+implement this interface using lambdas
