@@ -1,5 +1,5 @@
 create an interface with one abstract method
-Integer getRandom(Integer upperBound, Integer lowerBound);
+Integer getRandom(Integer lowerBound, Integer upperBound);
 implement this interface using lambdas
 (parameter1, parameter2) -> { code block; return value; }
 1st: lowerBound < number < upperBound
