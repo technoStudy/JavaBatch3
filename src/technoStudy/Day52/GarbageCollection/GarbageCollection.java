@@ -28,9 +28,13 @@ public class GarbageCollection {
 
         {
             SimpleClassA o5 = new SimpleClassA();
+            o5.name = "Techo Study";
             SimpleClassB o6 = new SimpleClassB();
             o5.reference = o6;
             o6.reference = o5;
+            o5 = null;
+            // the object that was pointed to by o5 is not eligible for GC yet
+            System.out.println(o6);
         }  // o5 and o6 become eligible for GC because they are out of scope
 //        System.out.println(o5);
 //        System.out.println(o6);
