@@ -1,3 +1,8 @@
 create an interface with one abstract method
 Integer getRandom(Integer upperBound, Integer lowerBound);
 implement this interface using lambdas
+(parameter1, parameter2) -> { code block; return value; }
+1st: lowerBound < number < upperBound
+2nd: lowerBound <= number <= upperBound
+3rd: lowerBound < number <= upperBound
+4th: lowerBound <= number < upperBound
