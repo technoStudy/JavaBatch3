@@ -1,5 +1,6 @@
 package technoStudy.Day53.preDefinedFunctionalInterfaces.task2;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -18,7 +19,7 @@ public class Version2 {
         System.out.println(Arrays.toString(filter(array, filter2)));
 
         Predicate<String> filter3 = s -> s.equals("1");
-        Object[] filtered = filter(array2, filter3);
+        String[] filtered = filter(array2, filter3);
         System.out.println(Arrays.toString(filtered));
 
     }
@@ -30,7 +31,9 @@ public class Version2 {
                 list.add(arr[i]);
             }
         }
-       return (T[]) list.toArray();
+        T[] emptyArrayOfSameSizeAsList = (T[]) Array.newInstance(list.get(0)
+                .getClass(), list.size());
+        return list.toArray(emptyArrayOfSameSizeAsList);
     }
 
 }
