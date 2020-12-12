@@ -1,7 +1,5 @@
 package technoStudy.Day53.Generics.task1;
 
-import technoStudy.Day53.Generics.GenericClass.StringHolder;
-
 public class Swapper {
     public static <T> void swapElements(T[] array, int index1, int index2){
         if(array == null || array.length < 2) {
