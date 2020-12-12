@@ -1,2 +1,4 @@
 create a generic method that can swap two elements of any kind of array
-void swapElements(array[], index1, index2);
+void swapElements(array[], index1, index2){
+
+}
