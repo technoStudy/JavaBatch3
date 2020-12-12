@@ -19,10 +19,11 @@ public class Demo {
         Supplier<String> l5 = () -> "Hello";
 
         l1.accept("S");
-        l21.apply("s");
-        l3.accept("S", 2);
+        String s = l21.apply("s");
+        System.out.println(s);
+        l3.accept("b", 2);
         l4.run();
-        l5.get();
-
+        String s1 = l5.get();
+        System.out.println(s1);
     }
 }
