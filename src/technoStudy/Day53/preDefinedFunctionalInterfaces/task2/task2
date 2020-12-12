@@ -1,2 +1,4 @@
 create a function that can filter any kind of array
 by using provided predicate
+
+public static <T> T[] filter(T[] array, Predicate<T> predicate)
